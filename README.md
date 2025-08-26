@@ -48,18 +48,23 @@ cat < file1
 cat < file2
 ## OUTPUT
 
+![alt text](img/cat-file-2.png)
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
+
+![alt text](img/cmp.png)
  
 comm file1 file2
  ## OUTPUT
 
+![alt text](img/comm.png)
  
 diff file1 file2
 ## OUTPUT
 
+![alt text](img/diff.png)
 
 #Filters
 
