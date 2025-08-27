@@ -949,7 +949,7 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
-
+![alt text](img/chmod-12.png)
  
 cat forbreak.sh 
 ```bash
@@ -970,7 +970,10 @@ echo "The for loop is completed“
 $ chmod 755 forbreak.sh
  
 $ ./forbreak.sh 
- 
+
+![alt text](img/chmod-13.png)
+
+
 cat forbreak.sh 
 ```bash
 #!/bin/bash
@@ -991,7 +994,9 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
- 
+
+![alt text](img/chmod-14.png)
+
 cat exread.sh 
 ```bash
 #!/bin/bash
@@ -1006,6 +1011,7 @@ $ chmod 755 exread.sh
 $ ./exread.sh 
 ## OUTPUT
 
+![alt text](img/chmod-15.png)
 
  cat exread1.sh
 ```bash
@@ -1016,11 +1022,13 @@ echo "Hello $name, welcome to my program. “
 ``` 
 $ chmod 755 exread1.sh 
 
+$ ./exread1.sh 
+
 ## OUTPUT
 
+![alt text](img/chmod-16.png)
 
 
-$ ./exread1.sh 
  
 cat funcex.sh
 ```bash
@@ -1040,9 +1048,11 @@ fi
 ## OUTPUT
  ./funcex.sh 
 
- 
+ ![alt text](img/chmod-17.png)
+
  ./funcex.sh 1 2
 
+![alt text](img/chmod-18.png)
  
 cat argshift.sh
 ```bash
@@ -1054,9 +1064,11 @@ done
 ```
 $ chmod 777 argshift.sh
 
-## OUTPUT
 $ ./argshift.sh 1 2 3
- 
+## OUTPUT
+
+![alt text](img/chmod-19.png)
+
  cat argshift1.sh
 ```bash
  #/bin/bash 
@@ -1071,9 +1083,12 @@ for (( i=0;i<$ELEMENTS;i++)); do
 done
 ```
 $ chmod 777 argshift.sh
-## OUTPUT
+
 $ ./argshift.sh 1 2 3
- 
+## OUTPUT
+
+![alt text](img/chmod-20.png)
+
 cat argshift.sh
 ```bash
 #!/bin/bash 
@@ -1084,9 +1099,12 @@ while (( "$#" )); do
 done
 set +x
 ```
+
+./argshift.sh 1 2 3
+
 ## OUTPUT
- ./argshift.sh 1 2 3
- 
+
+ ![alt text](img/chmod-21.png)
  
 cat > nc.awk
 ```bash
@@ -1117,7 +1135,9 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+
+![alt text](img/chmod-22.png)
+
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1145,6 +1165,7 @@ fi
 ```
 ## OUTPUT 
 
+![alt text](img/chmod-23.png)
 
 # RESULT:
 The Commands are executed successfully.
