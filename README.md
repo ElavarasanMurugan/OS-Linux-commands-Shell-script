@@ -427,7 +427,8 @@ chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
 
- 
+![alt text](img/echo-1.png)
+
 cat << stop > herecheck.txt
 ```
 hello in this world
@@ -439,6 +440,7 @@ stop
 cat herecheck.txt
 ## OUTPUT
 
+![alt text](img/cat-h.png)
 
 cat < scriptest.sh 
 ```bash
@@ -477,23 +479,32 @@ chmod 777 scriptest.sh
 
 ## OUTPUT
 
+![alt text](img/chmod-1.png)
  
 ls file1
 ## OUTPUT
 
+![alt text](img/ls-2.png)
 echo $?
 ## OUTPUT 
+
+![alt text](img/echo-2.png)
+
+
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
- 
+
+![alt text](img/echo-3.png)
+
 abcd
  
 echo $?
  ## OUTPUT
 
+![alt text](img/echo-3.png)
 
  
 # mis-using string comparisons
@@ -526,13 +537,14 @@ fi
 ```
 ##OUTPUT
 
-
+![alt text](img/cat-5.png)
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
 
+![alt text](img/chmod-2.png)
 
 # check file ownership
 cat < psswdperm.sh 
@@ -559,6 +571,8 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+
+![alt text](img/chmod-3.png)
 
 # check if with file location
 cat>ifnested.sh 
@@ -606,7 +620,7 @@ fi
 ./ifnested.sh 
 ## OUTPUT
 
-
+![alt text](img/chmod-4.png)
 
 # using numeric test comparisons
 cat > iftest.sh 
@@ -649,6 +663,8 @@ $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ##OUTPUT
+
+![alt text](img/chmod-5.png)
 
 # check if a file
 cat > ifnested.sh 
@@ -699,6 +715,8 @@ $ chmod 755 ifnested.sh
 $ ./ifnested.sh 
 ##OUTPUT
 
+![alt text](img/chmod-6.png)
+
 # looking for a possible value using elif
 cat elifcheck.sh 
 ```bash
@@ -727,6 +745,7 @@ $ chmod 755 elifcheck.sh
 $ ./elifcheck.sh 
 ## OUTPUT
 
+![alt text](img/chmod-7.png)
 
 # testing compound comparisons
 cat> ifcompound.sh 
@@ -742,6 +761,8 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+
+![alt text](img/chmod-8.png)
 
 # using the case command
 cat >casecheck.sh 
@@ -777,7 +798,10 @@ $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
  
- 
+## OUTPUT
+
+![alt text](img/chmod-9.png)
+
 cat untiltest.sh 
 ```bash
 \#using the until command
@@ -873,8 +897,10 @@ Adilabad
 Bhadrachalam
 Khammam
 
+cat cities
 ## OUTPUT
 
+![alt text](img/cat-6'.png)
 
 cat forctype.sh 
 ```bash
@@ -889,6 +915,8 @@ $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
 
+![alt text](img/chmod-10.png)
+
 cat forctype1.sh 
 ```bash
 #!/bin/bash
@@ -901,6 +929,8 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+
+![alt text](img/chmod-11.png)
 
 cat fornested1.sh 
 ```bash
