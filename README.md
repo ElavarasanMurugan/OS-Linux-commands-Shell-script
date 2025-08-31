@@ -414,6 +414,7 @@ ls .gz
 ## OUTPUT
 
  ![alt text](img/ls-1.png)
+ 
 gunzip backup.tar.gz
 ## OUTPUT
 
